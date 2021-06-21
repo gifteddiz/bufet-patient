@@ -1,0 +1,64 @@
+.contact-us{
+  margin-bottom: rem(80px);
+}
+.contact-us__title{
+  font-size: rem(44px);
+  color: #2A73BD;
+  margin-bottom: rem(50px);
+}
+.contact-us__wrapper{
+  max-width: rem(1200px);
+  margin: 0 auto;
+}
+.contact-us__form{
+
+}
+.contact-us__fieldset{
+  position: relative;
+  margin-bottom: rem(25px);
+}
+.contact-us__label{
+  position: absolute;
+  font-size: rem(16px);
+  color: #919396;
+  line-height: rem(16px);
+  top: rem(11px);
+  left: rem(16px);
+  font-family: $roboto;
+}
+.contact-us__input{
+  border: 0;
+  width: 100%;
+  height: rem(70px);
+  border-radius: rem(15px);
+  background-color: #fff;
+  padding: rem(14px) rem(16px);
+  padding-top: rem(33px);
+  font-size: rem(20px);
+  color: #656667;
+  font-family: $roboto;
+  &.--textarea{
+    height: rem(170px);
+    padding-top: rem(16px);
+  }
+}
+.contact-us__row{
+  display: flex;
+  justify-content: space-between;
+}
+.contact-us__row-half{
+  width: calc(50% - 1.25rem);
+}
+.contact-us__row-wrapper{
+  display: flex;
+  justify-content: flex-end;
+}
+.contact-us__btn{
+  width: rem(332px);
+  height: rem(61px);
+  font-size: rem(20px);
+  font-family: $roboto;
+  svg{
+    margin-left: rem(8px);
+  }
+}

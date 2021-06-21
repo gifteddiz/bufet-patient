@@ -1,0 +1,34 @@
+.mfp-bg{
+  background-color: #C0BAAF;
+  opacity: 0.7;
+}
+.mfp-image-holder{
+  .mfp-bottom-bar{
+    top: auto;
+    bottom: 100%;
+    margin-top: 0;
+    margin-bottom: -36px;
+  }
+  .mfp-title{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #484C51;
+    font-style: italic;
+    font-size: 24px;
+    font-family: $roboto;
+  }
+  .mfp-figure:after{
+    display: none;
+  }
+  img.mfp-img{
+    border: rem(20px) solid #fff;
+    border-top-width: rem(50px);
+    border-radius: rem(15px);
+    padding: 0;
+  }
+  .mfp-close{
+    color: #1f2124;
+    padding-right: rem(25px);
+    padding-top: rem(4px);
+  }
+}

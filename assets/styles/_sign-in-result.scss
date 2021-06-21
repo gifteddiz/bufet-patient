@@ -1,0 +1,56 @@
+.sign-in-result{
+  display: flex;
+  padding-top: rem(60px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sign-in-result__wrapper{
+  display: flex;
+  justify-content: center;
+}
+.sign-in-result__block{
+  width: rem(706px);
+  border-radius: rem(30px);
+  box-shadow: rem(0px) rem(10px) rem(25px) rgba(60, 48, 29, 0.1);
+  background-color: #fff;
+  padding: rem(70px) rem(83px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sign-in-result__img{
+  width: rem(96px);
+  display: block;
+  margin-bottom: rem(38px);
+  img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+.sign-in-result__title{
+  font-size: rem(35px);
+  line-height: rem(37px);
+  font-weight: bold;
+  color: #222325;
+}
+.sign-in-result__subtitle{
+  font-size: rem(16px);
+  line-height: rem(24px);
+  color: #484C51;
+  margin-bottom: rem(35px);
+  margin-top: rem(8px);
+  font-family: $roboto;
+  @include media-breakpoint-down(sm){
+    br{
+      display: none;
+    }
+  }
+}
+.sign-in-result__btn{
+  width: rem(204px);
+  height: rem(44px);
+  font-size: rem(16px);
+}

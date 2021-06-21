@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/scripts/Magnific-Popup-master/dist/magnific-popup.css">
+  <link rel="stylesheet" href="assets/styles/style.css?124" />
+  <title>Буфетчица</title>
+</head>
+
+<body>
+  <div class="page-wrapper" data-sticky-container>
+    <div class="js-sticky" data-sticky-wrap data-sticky-class="is-sticky">
+      <header class="header">
+        <div class="header__wrapper">
+          <a href="#" class="header__logo">
+            <img src="assets/images/header__logo.png" alt="EMC - Group Of Companies European Medical Center" />
+          </a>
+        </div>
+      </header>
+    </div>
+    <div class="sign-in">
+      <div class="container">
+        <div class="sign-in__wrapper">
+          <form class="sign-in__block">
+            <h1 class="sign-in__title">Войти</h1>
+            <div class="sign-in__subtitle">Для входа введите ваш телефон и пароль</div>
+            <div class="sign-in__fieldset">
+              <label for="phone" class="sign-in__fieldset-label">Номер телефона</label>
+              <div class="sign-in__fieldset-input">
+                <input type="phone" id="phone" placeholder="+7 (   ) ___-__-__" />
+              </div>
+              <div class="sign-in__fieldset" id="sign-in__error-phone" style="display: none;"></div>
+            </div>
+            <div class="sign-in__fieldset">
+              <label for="password" class="sign-in__fieldset-label">Пароль</label>
+              <div class="sign-in__fieldset-input">
+                <input type="password" id="password" placeholder="****************" />
+              </div>
+              <div class="sign-in__fieldset" id="sign-in__error-password" style="display: none;"></div>
+            </div>
+            <div class="sign-in__forgot-wrapper">
+              <a href="#" class="sign-in__forgot">Забыли пароль?</a>
+            </div>
+            <label class="sign-in__confirm">
+              <div class="sign-in__confirm-checkbox">
+                <label class="checkbox --big">
+                  <input type="checkbox" id="confirm-checkbox" />
+                  <div class="checkbox__view"></div>
+                </label>
+              </div>
+              <div class="sign-in__confirm-text">Я принимаю условия <a href="#">Пользовательского соглашения</a></div>
+              <div class="sign-in__fieldset" id="sign-in__error-confirm" style="display: none;"></div>
+            </label>
+            <div class="sign-in__captcha">
+              <img src="assets/images/sign-in__captcha.png" />
+            </div>
+            <button class="sign-in__submit btn-1">Войти</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__outer-wrapper">
+        <div class="footer__wrapper">
+          <a href="#" class="footer__logo">
+            <img src="assets/images/header__logo.svg" />
+          </a>
+          <div class="footer__copy-n-agreement">
+            <div class="footer__copy">© 2020 Европейский Медицинский Центр</div>
+            <a href="#" class="footer__agreement">Пользовательское соглашение</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="assets/scripts/jquery-3.6.0.min.js"></script>
+  <script src="assets/scripts/Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script>
+  <script src="assets/scripts/sticky-js-master/dist/sticky.min.js"></script>
+  <script src="assets/scripts/app.js"></script>
+</body>
+
+</html>
